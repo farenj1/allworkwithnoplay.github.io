@@ -3,7 +3,7 @@
     --gnpmikisize: 7%;
 }
 body {
-    background-color: #fff0e7;
+    background-color: #fff7f7;
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
@@ -56,10 +56,11 @@ from { color: var(--gnpmikisize)}
     position: absolute;
     z-index: 10;
     padding: 50px;
-    bottom: -11%;
+    bottom: -14%;
     left: 0;
-    background: #FDD6EA;
+    background: #ffffff;
     width: 95%;
+    box-shadow: -4px -5px 10px rgba(0, 0, 0, 0.158);
 }
 .gnomi {
     margin: auto;
@@ -80,7 +81,7 @@ from { color: var(--gnpmikisize)}
     font-size: 150%;
     margin: var(--gnpmikisize);    
 }
-.ds {
+.gh {
     color: var(--btc);
     text-align: center;
     font-family: monospace;
